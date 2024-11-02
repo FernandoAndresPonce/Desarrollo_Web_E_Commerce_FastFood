@@ -20,7 +20,7 @@ Puede hacerlo a través de la sección de contacto, donde podrá enviar un mensa
 Agradezco sinceramente su visita a mi página web y espero que tenga una experiencia agradable.
 
 
-</>---------------------------------------------------------------------------------------------------------------------------------------------------------------------<>       
+</>-----------------------------------------------------------------------------------------------------------------------------------------------<>       
 Welcome to My Project
      
 Welcome to my first e-commerce web development, in which I have been working for two months and I continue to improve it. 
