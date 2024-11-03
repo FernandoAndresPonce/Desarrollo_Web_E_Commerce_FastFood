@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace DataAccess
 {
@@ -15,7 +16,8 @@ namespace DataAccess
 
         public Connection()
         {
-            this.conection = new SqlConnection("server=.\\SQLEXPRESS; database=FASTFOOD_DB; integrated security= true");
+            //this.conection = new SqlConnection("server=.\\SQLEXPRESS; database=FASTFOOD_DB; integrated security= true");
+            this.conection = new SqlConnection(ConfigurationManager.AppSettings["cadenaConexion"]);
             this.command = new SqlCommand();
         }
 

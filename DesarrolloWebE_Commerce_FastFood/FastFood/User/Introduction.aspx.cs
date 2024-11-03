@@ -17,7 +17,7 @@ namespace FastFood.User
         {
             try
             {
-                Response.Redirect("Default.aspx", false);
+                Response.Redirect("~/User/Default.aspx", false);
             }
             catch (Exception)
             {

@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.34931.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFood", "FastFood\FastFood.csproj", "{7A0E9AAA-8784-4E0B-A7E0-B1570B16EB7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DFB218CE-B781-4AEC-B2E7-90C36CEBA846} = {DFB218CE-B781-4AEC-B2E7-90C36CEBA846}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{DFB218CE-B781-4AEC-B2E7-90C36CEBA846}"
 EndProject

@@ -124,6 +124,7 @@ namespace BusinessLogic
                 data.SetParameter("@PostCode", updateUser.PostCode);
                 data.SetParameter("@ImageUrl", (object)updateUser.ImageUrl ?? DBNull.Value);
                 data.SetParameter("@UserId", updateUser.UserId);
+                data.SetParameter("@Admin", updateUser.Admin);
 
                 data.executeAction();
             }

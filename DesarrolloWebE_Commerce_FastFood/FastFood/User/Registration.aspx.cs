@@ -38,6 +38,7 @@ namespace FastFood.User
                         txtAddress.Text = user.Address;
                         txtMobile.Text = user.Mobile;
                         txtPostCode.Text = user.PostCode;
+
                         if (!string.IsNullOrEmpty(user.ImageUrl))
                         {
                             imgUser.ImageUrl = "./Image/Users/" + user.ImageUrl;
@@ -69,10 +70,13 @@ namespace FastFood.User
                 user.Mobile = txtMobile.Text;
                 user.Address = txtAddress.Text;
                 user.PostCode = txtPostCode.Text;
+               
 
                 if (Segurity.activeSession(Session["User"]))
                 {
+                   
                     var userSession = Session["User"] as UsersD;
+                    user.Admin = userSession.Admin;
                     user.UserId = userSession.UserId;
                     user.ImageUrl = "User-" + user.UserId + ".jpg";
 
@@ -101,6 +105,8 @@ namespace FastFood.User
                     }
                     else
                     {
+                        user.UserId = userId;
+
                         string route = Server.MapPath("./Image/Users/");
                         File.Copy(Server.MapPath("~/TemplateFiles/images/perfil.png"), route + "User-" + userId + ".jpg", true);
                         user.ImageUrl = "User-" + user.UserId + ".jpg";

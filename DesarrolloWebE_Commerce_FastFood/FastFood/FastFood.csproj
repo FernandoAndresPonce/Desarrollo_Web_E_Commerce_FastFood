@@ -48,6 +48,7 @@
       <HintPath>..\..\Invoice\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -233,7 +234,6 @@
     <Content Include="TemplateFiles\images\about-img.png" />
     <Content Include="TemplateFiles\images\client1.jpg" />
     <Content Include="TemplateFiles\images\client2.jpg" />
-    <Content Include="TemplateFiles\images\f1.png" />
     <Content Include="TemplateFiles\images\f2.png" />
     <Content Include="TemplateFiles\images\f3.png" />
     <Content Include="TemplateFiles\images\f4.png" />
@@ -256,11 +256,8 @@
     <Content Include="User\Default.aspx" />
     <Content Include="User\DetailProductCart.aspx" />
     <Content Include="User\Error.aspx" />
-    <Content Include="User\Image\burger_illustration_graffiti_project_by_meas7_dg4fcqu-414w-2x.jpg" />
     <Content Include="User\Image\HamburguesaClasica.png" />
-    <Content Include="User\Image\login.png" />
     <Content Include="User\Image\payment2.png" />
-    <Content Include="User\Image\PerfilImage.jpg" />
     <Content Include="User\Image\StackerCuadruple.png" />
     <Content Include="User\Image\Whopper-Guacamole.png" />
     <Content Include="User\Introduction.aspx" />
@@ -537,6 +534,18 @@
     <Content Include="Scripts\bootstrap.esm.min.js.map" />
     <Content Include="Scripts\bootstrap.js.map" />
     <Content Include="Scripts\bootstrap.min.js.map" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile10.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile2.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile3.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile4.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile5.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile6.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile7.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile8.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile9.pubxml" />
+    <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

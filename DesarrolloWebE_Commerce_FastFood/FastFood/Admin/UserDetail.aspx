@@ -51,7 +51,7 @@
                             <div class="card-title mb-4">
                                 <div class="d-flex justify-content-start">
                                     <div class="image-container">
-                                        <asp:Image ImageUrl="~/User/Image/PerfilImage.jpg" ID="imgUser" runat="server" CssClass="rounded mx-auto d-block" Style="width: 150px; height: 150px;" />
+                                        <asp:Image ImageUrl="../User/TemplateFiles/images/perfil.png" ID="imgUser" runat="server" CssClass="rounded mx-auto d-block" Style="width: 150px; height: 150px;" />
                                     </div>
                                 </div>
                             </div>

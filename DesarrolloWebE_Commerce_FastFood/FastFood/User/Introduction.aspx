@@ -8,7 +8,7 @@
     <style>
         .popup {
             position: fixed;
-            top: 0;
+            top: -30px;
             left: 0;
             width: 100%;
             height: 100%;
@@ -21,11 +21,11 @@
 
         .popup-content {
             background-color: rgba(255, 255, 255, 0.9);
-            padding: 20px;
+            padding: 10px;
             border-radius: 10px;
             text-align: center;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            max-width: 80%; 
+            max-width: 90%; 
         }
 
         .popup-buttons {
